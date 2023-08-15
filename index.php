@@ -7,7 +7,7 @@ class Parser {
 	
 	function __construct() {
 		$this->url = 'https://code.mu';
-		$this->table_url = 'https://code.mu/ru/php/framework/laravel/book/prime/';
+		$this->table_url = 'https://www.code.mu/ru/markup/book/prime/';
 		$this->items_list = $this->getItemsList();
 		$this->items_list = $this->getDetailItemsList();
 		$this->json_book = $this->saveBook();
